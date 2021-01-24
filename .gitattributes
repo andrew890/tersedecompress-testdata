@@ -7,4 +7,4 @@
 .zigi/dsn git-encoding=UTF8 zos-working-tree-encoding=ibm-1047
 LICENSE git-encoding=UTF8 zos-working-tree-encoding=ibm-1047
 zos-binary-xfer/* binary
-zos-text-xfer/* zos-working-tree-encoding=ibm-1047
+zos-text-xfer/* zos-working-tree-encoding=ibm-1047Z.FB.A.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
