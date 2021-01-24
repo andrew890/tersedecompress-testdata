@@ -54,3 +54,4 @@ Z.VB.ENWIK8.XML.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binar
 Z.VB.FIELDS.C.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.VB.FIELDS.C.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.VB.GRAMMAR.LSP.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
+Z.VB.GRAMMAR.LSP.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
