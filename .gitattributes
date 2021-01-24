@@ -11,3 +11,4 @@ zos-text-xfer/* zos-working-tree-encoding=ibm-1047Z.FB.A.TXT.PACK git-encoding=B
 Z.FB.A.TXT.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.AAA.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.AAA.TXT.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
+Z.FB.ALICE29.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
