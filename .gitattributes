@@ -48,3 +48,4 @@ Z.FB.XARGS.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.VB.BIBLE.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.VB.BIBLE.TXT.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.VB.CP.HTML.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
+Z.VB.CP.HTML.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
