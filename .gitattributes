@@ -8,6 +8,12 @@
 LICENSE git-encoding=UTF8 zos-working-tree-encoding=ibm-1047
 zos-binary-xfer/* binary
 zos-text-xfer/* zos-working-tree-encoding=ibm-1047Z.FB.A.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
+#
+# z/OS datasets are prefixed with Z, set default for datasets
+# not added as binary in Zigi
+#
+Z.* git-encoding=UTF8 zos-working-tree-encoding=ibm-1047
+#
 Z.FB.A.TXT.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.AAA.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.AAA.TXT.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
