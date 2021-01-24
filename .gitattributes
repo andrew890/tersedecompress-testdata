@@ -37,3 +37,4 @@ Z.FB.PLRABN12.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY bina
 Z.FB.PLRABN12.TXT.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.PTT5.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.PTT5.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
+Z.FB.RANDOM.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
