@@ -29,3 +29,4 @@ Z.FB.GRAMMAR.LSP.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binar
 Z.FB.GRAMMAR.LSP.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.KENNEDY.XLS.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.KENNEDY.XLS.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
+Z.FB.LCET10.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
