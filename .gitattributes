@@ -39,3 +39,4 @@ Z.FB.PTT5.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.PTT5.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.RANDOM.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.RANDOM.TXT.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
+Z.FB.SUM.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
