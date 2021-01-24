@@ -26,3 +26,4 @@ Z.FB.E.COLI.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.FIELDS.C.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.FIELDS.C.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.GRAMMAR.LSP.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
+Z.FB.GRAMMAR.LSP.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
