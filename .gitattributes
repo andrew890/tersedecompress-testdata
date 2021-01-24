@@ -57,3 +57,4 @@ Z.VB.GRAMMAR.LSP.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binar
 Z.VB.GRAMMAR.LSP.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.VB.LCET10.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.VB.LCET10.TXT.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
+Z.VB.WORLD192.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
