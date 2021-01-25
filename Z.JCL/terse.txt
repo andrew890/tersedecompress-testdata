@@ -1,0 +1,67 @@
+//JOBNAME  JOB  CLASS=A,
+//            MSGCLASS=H,
+//            NOTIFY=&SYSUID
+//*
+//* Generate PACK and SPACK tersed data.
+//* Note that rerunning this job will generate datasets
+//* that do not match the existing git versions because
+//* there is metadata in the terse output.
+//* The results from the decompress operation should
+//* be valid.
+//*
+//* The prefix for the Zigi repository z/OS datasets:
+//*
+//         SET  PREFIX='USERID.TDTDATA'
+//*
+//TERSE    PROC DS=
+//DELETE   EXEC PGM=IEFBR14
+//PACK     DD   DISP=(MOD,DELETE),UNIT=SYSDA,SPACE=(TRK,1),
+//            DSN=&DS..PACK
+//SPACK    DD   DISP=(MOD,DELETE),UNIT=SYSDA,SPACE=(TRK,1),
+//            DSN=&DS..SPACK
+//*
+//PACK     EXEC PGM=AMATERSE,PARM=PACK
+//SYSPRINT DD   SYSOUT=*
+//SYSUT1   DD   DISP=SHR,DSN=&DS
+//SYSUT2   DD   DISP=(NEW,CATLG),LRECL=1024,
+//            DSN=&DS..PACK,
+//            SPACE=(TRK,(100,100),RLSE),
+//            UNIT=SYSDA
+//*
+//PACK     EXEC PGM=AMATERSE,PARM=SPACK
+//SYSPRINT DD   SYSOUT=*
+//SYSUT1   DD   DISP=SHR,DSN=&DS
+//SYSUT2   DD   DISP=(NEW,CATLG),LRECL=1024,
+//            DSN=&DS..SPACK,
+//            SPACE=(TRK,(100,100),RLSE),
+//            UNIT=SYSDA
+//         PEND
+//*
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.A.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.AAA.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.ALICE29.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.ALPHABET.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.ASYOULIK.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.BIBLE.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.CP.HTML
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.E.COLI
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.FIELDS.C
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.GRAMMAR.LSP
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.KENNEDY.XLS
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.LCET10.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.PI.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.PLRABN12.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.PTT5
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.RANDOM.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.SUM
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.WORLD192.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.FB.XARGS
+//S1       EXEC TERSE,DS=&PREFIX..Z.VB.BIBLE.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.VB.CP.HTML
+//S1       EXEC TERSE,DS=&PREFIX..Z.VB.ENWIK8.XML
+//S1       EXEC TERSE,DS=&PREFIX..Z.VB.FIELDS.C
+//S1       EXEC TERSE,DS=&PREFIX..Z.VB.GRAMMAR.LSP
+//S1       EXEC TERSE,DS=&PREFIX..Z.VB.LCET10.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.VB.WORLD192.TXT
+//S1       EXEC TERSE,DS=&PREFIX..Z.VB.XARGS
+//

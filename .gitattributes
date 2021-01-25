@@ -18,6 +18,7 @@ zos-text-xfer/* git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
 # not added as binary in Zigi
 #
 Z.* git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
+Z.*/* git-encoding=iso8859-1 zos-working-tree-encoding=ibm-1047
 #
 Z.FB.A.TXT.PACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
 Z.FB.A.TXT.SPACK git-encoding=BINARY zos-working-tree-encoding=BINARY binary
